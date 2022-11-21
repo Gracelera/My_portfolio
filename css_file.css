@@ -10,14 +10,14 @@
   --transition: 0.4s;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
-}
-/* CSS Resets */
-* {
-  margin: o;
-  padding: o;
-  box-sizing: border-box;
 }
 
 body {
@@ -99,10 +99,15 @@ nav {
   line-height: var(--line-height);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.link{
+  width: 200px;
+  background-color: #ff7235;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-section {
