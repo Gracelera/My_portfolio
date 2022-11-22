@@ -1,5 +1,4 @@
 # my_portfolio
 
-# portfolio_screenshot.html.png
-
+<!-- A Screenshot of My Portfolio -->
 <img src="assets/portfolio_screenshot.html.png">
