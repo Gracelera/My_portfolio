@@ -7,6 +7,7 @@
   --neutral: #ffffff;
   --secondary-shadow: #333;
   --line-height: 2rem;
+  --line-height-second: 0.5rem;
   --transition: 0.4s;
 }
 
@@ -47,7 +48,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 3.5rem;
-  height: 70px;
+  height: 60px;
+}
+
+.external-wrapper{
+  margin: 0 100px;
 }
 
 .logo {
@@ -100,6 +105,7 @@ nav {
 }
 
 .link{
+  font-size: 18px;
   width: 200px;
   background-color: #ff7235;
   padding: 1rem;
@@ -112,14 +118,12 @@ nav {
 
 .hero-section {
   display: flex;
-  margin: 0 100px;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 60px);
   gap: 3rem;
 }
 
 .about-me {
-  width: 40%;
-  margin-left: 100px;
+  width: 50%;
 }
 
 .about-title {
@@ -129,8 +133,8 @@ nav {
 
 .about-me p {
   font-size: 20px;
-  line-height: var(--line-height);
-  margin-bottom: 10rem;
+  line-height: var(--line-height-);
+  margin-bottom: 1rem;
 }
 
 .square-img{
@@ -155,8 +159,7 @@ nav {
 
 .square_wrapper {
   display: flex;
-  /* align-items: center; */
-  margin: 100px;
+  margin: 100px 0;
   gap: 2rem;
 }
 
@@ -173,6 +176,23 @@ nav {
 /* .date:not(.square){
  font-size: 20px;
 } */
+
+.skillset{
+  margin-bottom: 8rem;
+}
+
+.skillset ul{
+  width: 800px;
+  margin-top: 2rem;
+}
+
+.skillset li{
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--neutral);
+  border: 0.2rem solid var(--primary-color);
+  margin: 0.5rem;
+}
 
 .simple-footer {
   font-size: 100px;
